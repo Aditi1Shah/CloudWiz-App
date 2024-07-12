@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudWiz Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class = "logo">CloudWiz.</a>
+            <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#" onclick="redirectTo('login.html')">Play Game</a>
+            <a href="#">Dashboard</a>
+            <a href="#">Leaderboard</a>
+            
+        </nav>
+        </header>
+        <!-- <div class="login-section">
+            <div class="box">
+                <form>
+                    <h2>CloudWiz.</h2>
+                    <div class = "inputBox">
+                        <input type="text" required="required">
+                        <span>Name</span>
+                        <i></i>
+                    </div>
+                        <h3>Choose your character icon</h3>
+                    <div class="character-icons">
+                        <img class="character-icon" src="Boy.jpg" alt="Character 1" data-character="character1">
+                        <img class="character-icon" src="elephant.jpg" alt="Character 2" data-character="character2">
+                        <img class="character-icon" src="koala.jpg" alt="Character 1" data-character="character1">
+                        <img class="character-icon" src="mouse.jpg" alt="Character 2" data-character="character2">
+                    </div>
+                    <button class="play-btn">Play</button>
+                </form>
+            </div>
+        </div> -->
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>CloudWiz</h1>
+                    <div class="quiz-header">
+                    <span>Quiz Website</span>
+                    <span class ="header-score">Score: 0 / 4 </span>
+                </div>
+                
+                <h2 class="question-text">What does HTML stand for?</h2>
+                <div class="option-list">
+                     <!-- <div class="option">
+                        <span>A.Hyper Text Makeup Litral</span>
+                    </div>
+                    <div class="option">
+                        <span>B.Hyper Type Multi Language</span>
+                    </div>
+                    <div class="option">
+                        <span>C. Hyper Text Markup Language</span>
+                    </div>
+                    <div class="option">
+                        <span>D.Home Text Makeup Language</span>
+                    </div> -->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Quiz Results!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class= "progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Your Score 0 out of 5</span>
+
+                    </div>
+                    <div class="buttons">
+                        <button class = "tryAgain-btn">Try Again!</button>
+                        <button class = "goHome-btn">Home</button>
+                    </div>
+                </div>
+            </section>
+        <section class="home">
+            <div class="home-content">
+                <h1>BigQuery Quiz App</h1>
+                <p>Explore the world Of GCP with the Cloudwiz Quiz Trivia</p>
+                <button class="start-btn">Start Quiz</button>
+            </div>
+        </section>
+    </div>
+    
+    </main>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+    
+</body>
+</html>
